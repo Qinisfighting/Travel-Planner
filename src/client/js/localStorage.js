@@ -5,7 +5,7 @@ const depart = document.getElementById("datum1").value;
 //get single trip data
 async function saveTrip() {
   try {
-    let allData = await axios.get('http://localhost:7777/all')
+    let allData = await axios.get('/all')
     pushIntoArray(allData);
     showSavedTrip();
   } catch (error) {
