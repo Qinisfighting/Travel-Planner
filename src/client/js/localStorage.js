@@ -5,7 +5,7 @@ const depart = document.getElementById("datum1").value;
 //get single trip data
 async function saveTrip() {
   try {
-    let allData = await axios.get('/all')
+    let allData = await axios.get('https://qinstravelplanner.herokuapp.com/all')
     pushIntoArray(allData);
     showSavedTrip();
   } catch (error) {

@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
   res.sendFile("dist/index.html");
 });
 
-app.get('/all', (req,res) => {
+app.get('https://qinstravelplanner.herokuapp.com/all', (req,res) => {
   res.send(projectData);   
  });
 
