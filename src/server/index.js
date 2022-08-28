@@ -24,15 +24,15 @@ app.get("/", (req, res) => {
   res.sendFile("dist/index.html");
 });
 
-app.get('https://qinstravelplanner.herokuapp.com/all', (req,res) => {
+app.get('/all', (req,res) => {
   res.send(projectData);   
  });
 
 
 //to avoid port collision, when the app is to supertest, it runs on a random port.
  if (process.env.NODE_ENV !== 'test') {
-app.listen(7777, () => {
-  console.log('Example app listening on port 7777!')
+app.listen(6666, () => {
+  console.log('Example app listening on port 6666!')
 })
 } 
 
