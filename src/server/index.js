@@ -31,8 +31,8 @@ app.get('/all', (req,res) => {
 
 //to avoid port collision, when the app is to supertest, it runs on a random port.
  if (process.env.NODE_ENV !== 'test') {
-  const port = process.env.PORT || 6666;
-  app.listen(port, () => console.log(`Travel app listening on port ${port}`));
+  const port = process.env.PORT || 7000;
+  app.listen(port, () => console.log(`Travel Planner listening on port ${port}`))
 } 
 
 // Setup empty JS object to act as endpoint for all routes

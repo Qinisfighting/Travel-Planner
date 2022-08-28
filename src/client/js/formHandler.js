@@ -50,7 +50,7 @@ function getDayData(depart,end) {
 
   //post the user submit data to server
 const postTrip = async(location = '',  daysToGo = '', notes ='') => {
-  const res = await fetch('http://localhost:6666/addData', {
+  const res = await fetch('/addData', {
       method: 'POST',
       mode: "cors",
       cache: "no-cache",
@@ -74,7 +74,7 @@ const updateUI = async(daysToGo) => {
   if( daysToGo >= 0 && daysToGo <= 16) {
 
       try {
-          const allData = await axios.get('http://localhost:6666/all')
+          const allData = await axios.get('/all')
          
           document.getElementById('name').innerHTML = `<p>My trip to: ${allData.data.geo.cityName}, ${allData.data.geo.countryName} </p>`
           document.getElementById('temp').innerHTML = `<p>Typical weather for then: ${allData.data.weather.min}°C to ${allData.data.weather.max}°C</p>`; 
@@ -103,7 +103,7 @@ const updateUI = async(daysToGo) => {
       alert("For a complete submit response, please select a date within the next 16 days.")
 
       try {
-          const allData = await axios.get('http://localhost:6666/all')
+          const allData = await axios.get('/all')
 
           document.getElementById('name').innerHTML = `<p>My trip to: ${allData.data.geo.cityName}, ${allData.data.geo.countryName} </p>`
           document.getElementById('temp').innerHTML = `<p>Current weather: ${allData.data.weather.temp}°C, feels ${allData.data.weather.feels}°C </p>`;
