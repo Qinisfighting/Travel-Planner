@@ -90,8 +90,8 @@ const updateUI = async(daysToGo) => {
           document.getElementById('callingCodes').innerHTML =`<p>Calling Code: ${allData.data.country.callingCodes}</p>`;
           document.getElementById('languages').innerHTML = `<p>Language: ${allData.data.country.languages}</p>`;
           document.getElementById('currencies').innerHTML = `<p>Currencies: ${allData.data.country.currencies}</p>`;
-          document.getElementById('tripIMG').innerHTML = `<img src="${allData.data.imageC.image_url} alt="${allData.data.imageC.image_alt}">`; 
-          document.getElementById('tripIMG').innerHTML = `<img src="${allData.data.image.image_url} alt="${allData.data.image.image_alt}">`;
+          document.getElementById('tripIMG').innerHTML = `<img src="${allData.data.imageC.image_url}" alt="${allData.data.imageC.image_alt}">`; 
+          document.getElementById('tripIMG').innerHTML = `<img src="${allData.data.image.image_url}" alt="${allData.data.image.image_alt}">`;
          
           return
 
@@ -119,8 +119,8 @@ const updateUI = async(daysToGo) => {
           document.getElementById('callingCodes').innerHTML =`<p>Calling Code: ${allData.data.country.callingCodes}</p>`;
           document.getElementById('languages').innerHTML = `<p>Language: ${allData.data.country.languages}</p>`;
           document.getElementById('currencies').innerHTML = `<p>Currencies: ${allData.data.country.currencies}</p>`;
-          document.getElementById('tripIMG').innerHTML = `<img src="${allData.data.imageC.image_url} alt="${allData.data.imageC.image_alt}">`; 
-          document.getElementById('tripIMG').innerHTML = `<img src="${allData.data.image.image_url} alt="${allData.data.image.image_alt}">`;
+          document.getElementById('tripIMG').innerHTML = `<img src="${allData.data.imageC.image_url}" alt="${allData.data.imageC.image_alt}">`; 
+          document.getElementById('tripIMG').innerHTML = `<img src="${allData.data.image.image_url}" alt="${allData.data.image.image_alt}">`;
 
           return 
 
