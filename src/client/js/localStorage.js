@@ -60,7 +60,7 @@ function showSavedTrip() {
         let  tempDataJson = dataJson[i].data;
         if (tempDataJson != null) {
           //the class has to be added here but not in index.HTML, because the div is dynamical
-          html += `<div class="savedEntry" style="display: block;"><div class="tripImage2" alt="Location"><img src="${tempDataJson.image.image_url} alt="${tempDataJson.image.image_alt}"></div>`;
+          html += `<div class="savedEntry" style="display: block;"><div class="tripImage2" alt="Location"><img src="${tempDataJson.image.image_url}" alt="${tempDataJson.image.image_alt}"></div>`;
           html += `<div class=tripText2><p>${tempDataJson.weather.datetime}</p>
                <h3>${tempDataJson.geo.cityName}, ${tempDataJson.geo.countryName} </h3> 
                <p>${tempDataJson.weather.min}°C to ${tempDataJson.weather.max}°C</p>
