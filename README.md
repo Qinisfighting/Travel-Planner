@@ -1,6 +1,6 @@
 <img src="https://github.com/Qinisfighting/FEND-Capstone---Travel-App/blob/main/src/client/img/banner.jpg" width="1200"> 
 
-# Travel Planner (Deployed Verison of [Udacity Capstone Project](https://github.com/Qinisfighting/FEND-Capstone---Travel-App))
+# Travel Planner 
 
 
 ## Overview
@@ -19,7 +19,6 @@ Capstone Project of Front End Web Developer Nanodegree Program from Udacity, aim
 - Use Local Storage to save trips.
 - Allow the user to add additional trips. 
 
-## View the project here [Travel Planner](https://qinstravelplanner.herokuapp.com/)
 
 <img src="https://github.com/Qinisfighting/FEND-Capstone---Travel-App/blob/main/src/client/img/demo.png" width="1200"> 
 
@@ -52,6 +51,44 @@ Capstone Project of Front End Web Developer Nanodegree Program from Udacity, aim
 - cors
 - body-parser
 - webpack plugins and loaders 
+
+## Installation 
+
+- Clone the project to local device
+
+- Make sure Node(v14.21.3) and npm(v6.14.4) are installed from the terminal, and run
+
+   ```
+   npm install
+   ```
+
+- By package compatibility issues, please install plugins and loaders with the proposed version set from [package.json](https://github.com/Qinisfighting/Project-FEND-Capstone---Travel-App/blob/main/package.json), and run
+
+   ```
+   npm i --legacy-peer-deps
+   ```
+    
+## Start the project
+
+- Sign up for the first three API ID/keys from the link above and make sure dotenv package is installed
+- Create a .env file in the root of this project and fill the file with the API keys 
+
+```
+geoUsername = *********
+weatherAPIKey = *************************
+pixAPIKey = *************************
+```
+
+Command | Action
+:------------: | :-------------:
+`npm run build-prod` | build 
+`npm start` | run 
+`npm run build-dev` | develope 
+
+## View the project
+
+- [Local](http://localhost:7000/)
+- [Heroku](https://qinstravelplanner.herokuapp.com/)
 
 ## Special thanks
 
