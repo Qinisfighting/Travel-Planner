@@ -1,0 +1,10 @@
+Node(v14.21.3)
+npm install -g npm@6.14.4
+npm i --legacy-peer-deps  (install node module)
+
+npm run build-prod	(build dist folder, important for deployment)
+npm start	(run, check the app on localhost)
+npm run build-dev	(develope but not push to front)
+
+https://dev.to/lawrence_eagles/causes-of-heroku-h10-app-crashed-error-and-how-to-solve-them-3jnl
+

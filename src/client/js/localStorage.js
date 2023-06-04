@@ -56,7 +56,7 @@ function showSavedTrip() {
       sortDataArray(dataJson);
       let html = "";
       //loop the array
-      for (var i = 0; i < dataJson.length; i++) {
+      for (let i = 0; i < dataJson.length; i++) {
         let  tempDataJson = dataJson[i].data;
         if (tempDataJson != null) {
           //the class has to be added here but not in index.HTML, because the div is dynamical
@@ -73,7 +73,7 @@ function showSavedTrip() {
           document.getElementById("storageShow").innerHTML = html;
           document.getElementById("storageDiv").style.display = `block`;
           //Dynamically add button events,button's id is delBtn0,delBtn1.. and so on
-          for (var i = 0; i < dataJson.length; i++) {
+          for (let i = 0; i < dataJson.length; i++) {
              document.getElementById("delBtn" + i).addEventListener("click", deleteTrip);
           }
         } else {
