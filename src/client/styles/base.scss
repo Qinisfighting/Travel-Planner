@@ -112,36 +112,37 @@ body {
 
   #app {
     text-align:center; 
-    display: block;
+    display: flex;
+    flex-direction: column
   
     .headline {   
       font-size: 77px;
-      display: block;
    }
     .location{
   
       display: flex;
+      justify-content: space-between;
       margin: 2rem;
-      width:100%
+ 
     }
 
     .datum1{
       display: flex;
       margin: 2rem;
-      width:100%
+      justify-content: space-between;
     }
      
     .datum2{   
       display: flex;
       margin: 2rem;
-      width:100%
+      justify-content: space-between;
     }
 
     .notes{
       display: flex;
       margin: 2rem;
       max-height: 250px;
-      width:100%
+      justify-content: space-between;
 
       button{
         margin-bottom:140px
