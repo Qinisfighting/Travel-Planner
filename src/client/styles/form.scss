@@ -37,11 +37,11 @@ textarea {
 
 @media screen and (max-width: 800px) {
   input {
-    width: 250px;
+    width: 30%;
     font-size: 18px;
   }
   label {
-    width: 250px;
+    width: 60%;
     height: 70px;
     padding-top: 17px;
     margin-bottom: 0; 
@@ -49,7 +49,7 @@ textarea {
   textarea {
 
     font-size: 18px;
-    width: 250px;
+    width: 60%;
     max-height: 150px;
     border-radius: 5px;
   }
