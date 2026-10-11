@@ -1,4 +1,3 @@
-<img src="https://github.com/Qinisfighting/FEND-Capstone---Travel-App/blob/main/src/client/img/banner.jpg" width="1200"> 
 
 # Travel Planner 
 
@@ -18,9 +17,7 @@ Capstone Project of Front End Web Developer Nanodegree Program from Udacity, aim
 - A print button on the left which allows user to print their trip.
 - Use Local Storage to save trips.
 - Allow the user to add additional trips. 
-
-
-<img src="https://github.com/Qinisfighting/FEND-Capstone---Travel-App/blob/main/src/client/img/demo.png" width="1200"> 
+ 
 
 
 ## Environment
