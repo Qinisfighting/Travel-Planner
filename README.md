@@ -83,8 +83,6 @@ Command | Action
 `npm run build-dev` | develope 
 
 ## View the project
-
-- [Local](http://localhost:7000/)
 - [Heroku](https://qinstravelplanner.herokuapp.com/)
 
 ## Special thanks
